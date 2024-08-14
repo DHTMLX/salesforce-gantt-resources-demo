@@ -1,0 +1,15 @@
+{
+    "env": {
+        "browser": true
+    },
+    "parser": "@babel/eslint-parser",
+
+    "plugins": ["@lwc/eslint-plugin-lwc"],
+    "extends": ["@salesforce/eslint-config-lwc/recommended"],
+
+    "rules": {
+        "quotes": [2, "double", { "avoidEscape": true }],
+        "quote-props": [2, "consistent-as-needed"],
+        "lines-between-class-members": ["error", "always", { "exceptAfterSingleLine": true }]
+    }
+}

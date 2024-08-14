@@ -1,0 +1,32 @@
+{
+  "name": "salesforce-lwc-gantt-resources",
+  "version": "1.0.0",
+  "description": "[![dhtmlx.com](https://img.shields.io/badge/made%20by-DHTMLX-blue)](https://dhtmlx.com/)\r [![License: GPL v2](https://img.shields.io/badge/license-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "prettier --single-quote --use-tabs --trailing-comma es5 --write \"force-app/main/default/lwc/gantt/*.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaksimLakatkou/salesforce-lwc-gantt-resources.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaksimLakatkou/salesforce-lwc-gantt-resources/issues"
+  },
+  "homepage": "https://github.com/MaksimLakatkou/salesforce-lwc-gantt-resources#readme",
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.5.4",
+    "@lwc/eslint-plugin-lwc": "^1.2.1",
+    "@salesforce/eslint-config-lwc": "^3.3.0",
+    "eslint": "^8.14.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-require-path-exists": "^1.1.9",
+    "jest": "^28.0.0",
+    "prettier": "2.6.2"
+  }
+}

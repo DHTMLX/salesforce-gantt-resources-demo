@@ -1,0 +1,39 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "GanttResource__c",
+                "referenceId": "GanttResource__cRef1"
+            },
+            "Name": "Resource1"
+        },
+        {
+            "attributes": {
+                "type": "GanttResource__c",
+                "referenceId": "GanttResource__cRef2"
+            },
+            "Name": "Resource2"
+        },
+        {
+            "attributes": {
+                "type": "GanttResource__c",
+                "referenceId": "GanttResource__cRef3"
+            },
+            "Name": "Resource3"
+        },
+        {
+            "attributes": {
+                "type": "GanttResource__c",
+                "referenceId": "GanttResource__cRef4"
+            },
+            "Name": "Resource4"
+        },
+        {
+            "attributes": {
+                "type": "GanttResource__c",
+                "referenceId": "GanttResource__cRef5"
+            },
+            "Name": "Resource5"
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+﻿<style>
+
+html, body {
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
+}
+
+#gantt_here {
+  width:100%;
+  height:100%;
+}
+
+.gantt_grid_scale .gantt_grid_head_cell,
+.gantt_task .gantt_task_scale .gantt_scale_cell {
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(0, 0, 0, 0.7);
+}
+
+.resource_marker{
+	text-align: center;
+}
+.resource_marker div{
+	color: black;
+	background: none;
+}
+
+.resource_marker.resource_cell div{
+	font-weight: bold;
+	background-color: #d6d6d6;
+}
+.resource_marker.task_cell div {
+	cursor: pointer;
+}
+
+.resource_marker.workday_ok div {
+}
+
+
+.resource_marker.workday_over div{
+	color: red;
+}
+
+
+.owner-label{
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	font-size: 12px;
+	display: inline-block;
+	border: 1px solid #cccccc;
+	border-radius: 25px;
+	background: #e6e6e6;
+	color: #6f6f6f;
+	margin: 0 3px;
+	font-weight: bold;
+}
+  
+</style>
