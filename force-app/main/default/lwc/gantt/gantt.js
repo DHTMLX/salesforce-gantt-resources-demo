@@ -86,6 +86,11 @@ export default class GanttView extends LightningElement {
 
 		//uncomment the following line if you use the Enterprise or Ultimate version
 		//const gantt = window.Gantt.getGanttInstance();
+
+		gantt.config.resources = {
+			dataprocessor_assignments: true
+		};
+
 		gantt.templates.parse_date = (date) => new Date(date);
 		gantt.templates.format_date = (date) => date.toISOString();
 		gantt.config.columns = [
