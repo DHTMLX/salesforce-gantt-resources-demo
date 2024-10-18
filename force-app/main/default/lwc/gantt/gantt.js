@@ -95,11 +95,11 @@ export default class GanttView extends LightningElement {
 		gantt.templates.format_date = (date) => date.toISOString();
 		gantt.config.columns = [
 			{ name: "text", tree: true, width: 200, resize: true },
-			{ name: "start_date", align: "center", width: 80, resize: true },
+			{ name: "start_date", align: "center", width: 95, resize: true },
 			{
 				name: "owner",
 				align: "center",
-				width: 75,
+				width: 85,
 				label: "Owner",
 				template: function (task) {
 					if (task.type === gantt.config.types.project) {
@@ -138,6 +138,8 @@ export default class GanttView extends LightningElement {
 			]
 		};
 
+		gantt.config.auto_types = true;
+		gantt.config.fit_tasks = true;
 		gantt.config.resource_property = "owner";
 		gantt.config.open_tree_initially = true;
 		gantt.config.resource_panel = {
@@ -156,6 +158,21 @@ export default class GanttView extends LightningElement {
 				}
 			});
 			return lightboxOptions;
+		};
+
+		gantt.templates.resource_cell_value = function (start_date, end_date, resource, tasks) {
+			let result = 0;
+			tasks.forEach(function (item) {
+				const assignments = gantt.getResourceAssignments(resource.id, item.id);
+				assignments.forEach(function (assignment) {
+					result += assignment.value * 1;
+				});
+			});
+	
+			if (result % 1) {
+				result = Math.round(result * 10) / 10;
+			}
+			return "<div>" + result + "</div>";
 		};
 
 		gantt.config.layout = {

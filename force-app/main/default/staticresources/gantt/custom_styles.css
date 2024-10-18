@@ -1,6 +1,4 @@
-﻿<style>
-
-html, body {
+﻿html, body {
   padding: 0px;
   margin: 0px;
   height: 100%;
@@ -22,33 +20,33 @@ html, body {
 	text-align: center;
 }
 .resource_marker div{
-	color: black;
-	background: none;
+	width: 28px;
+	height: 28px;
+	border-radius: 15px;
+	color: #FFF;
+	margin: 3px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
 }
-
-.resource_marker.resource_cell div{
-	font-weight: bold;
-	background-color: #d6d6d6;
-}
-.resource_marker.task_cell div {
-	cursor: pointer;
-}
-
 .resource_marker.workday_ok div {
+	background: var(--dhx-gantt-base-colors-success);
 }
-
 
 .resource_marker.workday_over div{
-	color: red;
+	background: var(--dhx-gantt-base-colors-error);
 }
 
 
-.owner-label{
+
+.owner-label {
 	width: 20px;
 	height: 20px;
-	line-height: 20px;
+	
 	font-size: 12px;
-	display: inline-block;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
 	border: 1px solid #cccccc;
 	border-radius: 25px;
 	background: #e6e6e6;
@@ -56,5 +54,3 @@ html, body {
 	margin: 0 3px;
 	font-weight: bold;
 }
-  
-</style>
