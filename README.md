@@ -6,7 +6,7 @@ This repository contains a code example of a Gantt chart with a resource panel i
 
 The component manages four Salesforce objects: Task, Link, Resource, and ResourceAssignment. It features an editable Gantt chart that not only schedules tasks but also visualizes resource allocation effectively.
 
-The sample is implemented with the help of JavaScript Gantt chart library - [DHTMLX Gantt](https://dhtmlx.com/docs/products/dhtmlxGantt/).
+The sample is implemented with the help of the JavaScript Gantt chart library - [DHTMLX Gantt](https://dhtmlx.com/docs/products/dhtmlxGantt/).
 
 [![salesforce-demo](https://dhtmlx.com/docs/products/demoApps/salesforce-gantt-chart/imgs/salesforce-gantt-chart.png)](https://dhtmlx.com/docs/products/demoApps/salesforce-gantt-chart/)
 
@@ -82,22 +82,41 @@ gantt.createDataProcessor({
 
 `force-app/main/default/staticresources/gantt/` contains a trial version of the Gantt which comes under the Evaluation license of DHTMLX Gantt. The Gantt chart will show a warning message about a 30-day trial period from time to time. For production usage, you will need to replace the js and css files in this archive with the ones from the DHTMLX Gantt package under the Enterprise or Ultimate licenses.
 
+---
+<p align="center">
+🚀 <b>Explore the Live Demo Built with DHTMLX for Salesforce LWC</b>
+</p>
+<p align="center">
+This demo presents a complete integration of DHTMLX components with Salesforce LWC, featuring a Kanban board for intuitive drag-and-drop task organization, a Gantt chart for advanced project management with task dependencies, and a Scheduler for managing events. <a href="https://github.com/DHTMLX/salesforce-lwc-demo/">Check demo on GitHub</a>.
+</p>
+<p align="center">
+    You can test the demo in a live Salesforce environment without any local setup. Make sure you use the following credentials:
+</p>
+<p align="center">Login: <code>user</code></p>
+<p align="center">Password: <code>demo</code></p>
+<p align="center">
+  <a href="https://dhtmlx-dev-ed.develop.lightning.force.com/lightning/n/Kanban">
+  Open the live demo >>> </a>
+</p>
+
+---
+
 ## Related resources
 
-- Documentation: [https://docs.dhtmlx.com/gantt/](https://docs.dhtmlx.com/gantt/)
-- DHTMLX Gantt product page: [https://dhtmlx.com/docs/products/dhtmlxGantt/](https://dhtmlx.com/docs/products/dhtmlxGantt/)
-- Video tutorial: [https://www.youtube.com/watch?v=cCvULTQxPfg&ab_channel=dhtmlx](https://www.youtube.com/watch?v=cCvULTQxPfg&ab_channel=dhtmlx)
-- About DHTMLX Gantt in Salesforce: [https://dhtmlx.com/docs/products/demoApps/salesforce-gantt-chart/](https://dhtmlx.com/docs/products/demoApps/salesforce-gantt-chart/)
-- Basic demo of DHTMLX Gantt for SalesForce LWC: [https://github.com/DHTMLX/salesforce-gantt-demo](https://github.com/DHTMLX/salesforce-gantt-demo)
+- [Official documentation](https://docs.dhtmlx.com/gantt/)
+- [About DHTMLX Gantt](https://dhtmlx.com/docs/products/dhtmlxGantt/)
+- [Video tutorial](https://www.youtube.com/watch?v=cCvULTQxPfg&ab_channel=dhtmlx)
+- [About DHTMLX Gantt in Salesforce](https://dhtmlx.com/docs/products/demoApps/salesforce-gantt-chart/)
+- [Basic demo of DHTMLX Gantt for SalesForce LWC](https://github.com/DHTMLX/salesforce-gantt-demo)
 
-## Support Us
+## Join our online community
 
-Star our GitHub repo :star:
+- Star our GitHub repo :star:
 
-Check our [roadmap](https://trello.com/b/fhOySHPj/gantt-roadmap) for future updates :wrench:
+- Check our [roadmap](https://trello.com/b/fhOySHPj/gantt-roadmap) for future updates :wrench:
 
-Read us on [Medium](https://medium.com/@dhtmlx) :newspaper:
+- Read us on [Medium](https://medium.com/@dhtmlx) :newspaper:
 
-Follow us on [Twitter](https://twitter.com/dhtmlx) :bird:
+- Follow us on [x](https://x.com/dhtmlx) :bird:
 
-Like our page on [Facebook](https://www.facebook.com/dhtmlx/) :thumbsup:
+- Like our page on [Facebook](https://www.facebook.com/dhtmlx/) :thumbsup:
